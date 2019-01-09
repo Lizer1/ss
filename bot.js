@@ -30,7 +30,7 @@ client.on('ready', () => {
 
 
 
-const prefix = "*"
+const prefix = "1"
 client.on('message', async msg => { 
 	if (msg.author.bot) return undefined;
 	if (!msg.content.startsWith(prefix)) return undefined;
@@ -227,4 +227,4 @@ function play(guild, song) {
 
 
 
-client.login(process.env.BOT_TOKEN);
+client.login(NTMxMzYzOTM2NDAzMTkzODU3.DxcuPA.dZ3DuSbGrGmue0FVYAPaE1i5T4w);
